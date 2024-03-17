@@ -1,0 +1,82 @@
+*{  
+    margin: 0; 
+    padding: 0;     
+    border: 0; 
+    outline: 0;     
+    list-style: none; 
+    box-sizing: border-box; 
+    text-decoration: none; 
+    scroll-behavior: smooth; 
+}  
+     
+:focus,:active{outline: none;}  
+a:focus,a:active{outline: none;}  
+     
+nav,footer,header,aside{display: block;}  
+     
+:root{  
+    --boss: rgb(160, 160, 160);  
+    --colors: rgb(210, 198, 198);  
+}   
+     
+input,button,textarea{font-family:inherit;}  
+     
+input::-ms-clear{display: none;}  
+button{cursor: pointer;}  
+button::-moz-focus-inner {padding:0;border:0;}  
+a, a:visited{text-decoration: none;}  
+a:hover{text-decoration: none;}  
+ul li{list-style: none;}  
+img{vertical-align: top;}  
+     
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+header{
+    /* display: flex;
+justify-content: space-between; */
+
+}
+h1{
+border: 1px solid #000;
+float: left;
+width: 50%;
+text-align: center;
+background-color: aquamarine;
+}
+
+nav{
+border: 1px solid #000;
+float:right;
+width: 50%;
+text-align: center;
+background-color: blue;
+}
+
+main{
+
+}
+section{
+    border: 1px solid #000;
+    float: left;
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+    background-color: rgb(19, 220, 200);
+}
+aside{
+    border: 1px solid #000;
+    float:right;
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+    background-color: rgb(29, 138, 222);
+}
+footer{
+   border: 1px solid #000;
+   text-align: center;
+   height: 50%;
+   background-color: rgb(18, 205, 96);
+}
+
+div{
+    height: 50%;
+}
